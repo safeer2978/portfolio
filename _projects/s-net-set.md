@@ -1,6 +1,6 @@
 ---
 title: "Sunno"
-tagline: "A networked multiplayer game inspired by the card game Set® "
+tagline: "A networked multiplayer "
 website: "https://github.com/vakila/net-set"
 skills: ["JavaScript", "Node", "Express", "Sockets", "Functional Programming", "TDD"]
 ---
