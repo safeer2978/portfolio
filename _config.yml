@@ -15,8 +15,8 @@ name:             'Safeer Khan'
 #tagline:          ''
 description:      'Software Engineer'
 #url:              safeer2978.github.io/
-baseurl:           safeer2978.github.io/portfolio
-# blogurl:          /blog/
+baseurl:           ''
+blogurl:          /projects/
 
 # Assets
 images:         '/img'
@@ -33,7 +33,7 @@ author:
   linkedin:       'https://www.linkedin.com/in/safeer2978 '
 
 paginate:         3
-paginate_path:    "/projects/page:num/"
+#paginate_path:    "/projects/page:num/"
 
 # Custom vars
 version:          2.1.0
