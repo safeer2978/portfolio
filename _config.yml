@@ -15,8 +15,8 @@ name:             'Safeer Khan'
 #tagline:          ''
 description:      'Software Engineer'
 #url:              safeer2978.github.io/
-baseurl:           ''
-blogurl:          /projects/
+baseurl:           '/portfolio'
+blogurl:          /projects
 
 # Assets
 images:         '/img'
