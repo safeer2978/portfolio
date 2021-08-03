@@ -1,6 +1,6 @@
 ---
-title: "Electronic Voting System using Blockchain and Smart Contracts"
-tagline: "Electronic Voting System using Blockchain and Smart Contracts"
+title: "Electronic Voting System"
+tagline: "Using Ethereum Blockchain and Smart Contracts"
 website: "https://github.com/safeer2978/Blockchain_Based_Voting_system"
 skills: [Solidity", "Javascript" , "Blockcahin", "Smart contracts","Etherium"]
 ---
