@@ -1,40 +1,24 @@
 ---
-layout: default
-title: Home
+layout: page
+title: Projects
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title | markdownify }}
+<div class="projects">
+  {% for project in site.projects %}
+  <div class="project post">
+    <h2 class="project-title post-title">
+      <a href="{{ project.website }}">
+        {{ project.title }}
       </a>
-    </h1>
-    {% if post.subtitle %}
-      <h3 class="post-subtitle">{{ post.subtitle | markdownify  }}</h3>
-    {% endif %}
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    </h2>
+    <span class="project-tagline post-date">
+        {{ project.tagline }}
+    </span>
 
-    {{ post.excerpt | markdownify }}
+    {{ project.content }}
+
+
   </div>
   {% endfor %}
 </div>
 
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer"
-       href="{{ site.baseurl }}/{% if paginator.page > 2 %}page{{paginator.previous_page}}{% endif %}">
-       <i class="fa fa-arrow-left"></i> Newer
-   </a>
-  {% endif %}
-
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">
-        Older <i class="fa fa-arrow-right"></i>
-    </a>
-  {% endif %}
-
-
-
-</div>

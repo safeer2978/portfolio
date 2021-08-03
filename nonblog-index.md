@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-## Hi, I'm Anjana!
+## Hi, I'm Safeer
 
 I love building [language technology](https://en.wikipedia.org/wiki/Language_technology) and programming in languages like Python and JavaScript. At the moment I'm doing my coding at the [Recurse Center](http://www.recurse.com).
 
